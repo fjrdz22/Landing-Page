@@ -10,6 +10,7 @@
   color: #f9faf8;
   width: 65%;
   margin: 0 auto;
+  background-color: #1f2937;
 }
 .header {
   display: flex;
@@ -80,5 +81,64 @@ img {
   font-weight: 100;
   color: grey;
   margin-bottom: 24px;
+  text-align: center;
+}
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 75px;
+}
+.quote {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: 0 auto;
+  align-items: center;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+.author {
+  text-align: end;
+  width: 65%;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: bold;
+}
+.container-margin {
+  background-color: white;
+  margin: 75px;
+}
+
+.container-signup {
+  background-color: #3882f6;
+  width: 65%;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 12px;
+  display: flex;
+}
+.signup-bold {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 400px;
+}
+.signup {
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+}
+.button-2 {
+  color: #e5e7eb;
+  background-color: #3882f6;
+  font-size: 1.25rem;
+  border: 2px solid;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 0.5em 2.25em;
+}
+.footer-2 {
+  padding: 50px;
   text-align: center;
 }
